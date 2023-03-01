@@ -1,0 +1,79 @@
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  
+}
+
+.profile-section {
+  text-align: center;
+}
+
+.profile-section img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-section h1 {
+  margin-top: 0;
+}
+
+.profile-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 10px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.profile-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-section li {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .profile-section p {
+    font-size: 1rem;
+  }
+
+  .profile-section ul {
+    flex-direction: column;
+  }
+
+  .profile-section li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.hire-button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  margin-top: 20px;
+}
+
+.hire-button:hover {
+  background-color: #fff;
+  color: #ff5722;
+}
