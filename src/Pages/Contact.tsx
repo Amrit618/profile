@@ -2,8 +2,13 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
+    <>
+      <div>
+        <h1>Please fill the following </h1>
+      </div>
+      <label></label>
+    </>
+  );
 }
 
 export default Contact
