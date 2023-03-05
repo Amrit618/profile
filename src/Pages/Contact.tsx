@@ -6,8 +6,10 @@ const Contact = () => {
       <div>
         <h1>Please fill the following </h1>
       </div>
-      <label></label>
-      <Contact></Contact>
+      <label>
+        <input type='text' />
+      </label>
+      
     </>
   );
 }
