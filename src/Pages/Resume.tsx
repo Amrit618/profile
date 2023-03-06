@@ -2,8 +2,12 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
-  )
+    <>
+      <div>
+        <h1>Contact</h1>
+      </div>
+    </>
+  );
 }
 
 export default Resume
