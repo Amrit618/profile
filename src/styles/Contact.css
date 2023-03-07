@@ -1,0 +1,87 @@
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-method {
+  margin: 10px;
+  text-align: center;
+}
+
+.contact-method a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.contact-method a:hover {
+  color: #0077b5;
+}
+
+.contact-method span {
+  margin-top: 10px;
+}
+
+.whats-on-your-mind {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.whats-on-your-mind h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.whats-on-your-mind textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #333;
+  resize: none;
+}
+
+@media (max-width: 768px) {
+  .contact-methods {
+    flex-direction: column;
+  }
+
+  .contact-method {
+    margin: 10px 0;
+  }}
+    .submit-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      background-color: #0077b5;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  
+    .submit-button:hover {
+      background-color: #005d8d;
+    }

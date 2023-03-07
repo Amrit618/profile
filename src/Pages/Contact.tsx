@@ -4,36 +4,45 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import '../styles/Contact.css';
 
 config.autoAddCss = false;
 
 const Contact: React.FC = () => {
   return (
-    <div>
+    <div className="contact-container">
       <h1>Contact Me</h1>
-      <p>You can reach me using the following methods:</p>
-      <ul>
-        <li>
-          <a href="mailto:amritbastakoti618@gmail.com">
-            <FontAwesomeIcon icon={faEnvelope} /> Email
+      <div className="contact-methods">
+        <div className="contact-method">
+          <a href="mailto:example@example.com">
+            <FontAwesomeIcon icon={faEnvelope} />
+            <span>Email</span>
           </a>
-        </li>
-        <li>
-          <a href="tel:+358414839992">
-            <FontAwesomeIcon icon={faPhone} /> Phone
+        </div>
+        <div className="contact-method">
+          <a href="tel:123456789">
+            <FontAwesomeIcon icon={faPhone} />
+            <span>Phone</span>
           </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/amrit-b-4a3b471b2/">
-            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+        </div>
+        <div className="contact-method">
+          <a href="https://www.linkedin.com/in/your-linkedin-profile">
+            <FontAwesomeIcon icon={faLinkedin} />
+            <span>LinkedIn</span>
           </a>
-        </li>
-        <li>
-          <a href="https://github.com/Amrit618">
-            <FontAwesomeIcon icon={faGithub} /> GitHub
+        </div>
+        <div className="contact-method">
+          <a href="https://github.com/your-github-username">
+            <FontAwesomeIcon icon={faGithub} />
+            <span>GitHub</span>
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <div className="whats-on-your-mind">
+        <h2>What's on your mind?</h2>
+        <textarea placeholder="Write something here..."></textarea>
+        <button className="submit-button">Submit</button>
+      </div>
     </div>
   );
 };
