@@ -9,6 +9,9 @@ import '../styles/Contact.css';
 config.autoAddCss = false;
 
 const Contact: React.FC = () => {
+    const handleSubmit = () => {
+      alert('Thank you, your message has been sent!');
+    };
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
@@ -41,7 +44,7 @@ const Contact: React.FC = () => {
       <div className="whats-on-your-mind">
         <h2>What's on your mind?</h2>
         <textarea placeholder="Write something here..."></textarea>
-        <button className="submit-button">Submit</button>
+        <button onClick = {handleSubmit}className="submit-button">Submit</button>
       </div>
     </div>
   );

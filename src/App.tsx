@@ -10,17 +10,19 @@ import cvData from './cvData';
 
 const App: React.FC =()=> {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/Resume" element={<Resume {...cvData} />} />
-        </Routes>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/Resume" element={<Resume {...cvData} />} />
+          </Routes>
+        </div>
+      </Router>
+    </>
   );
 }
 
