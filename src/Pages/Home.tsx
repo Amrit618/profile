@@ -18,7 +18,7 @@ function Home() {
           <p>
             I am passionate about programming and always eager to learn new
             technologies. I believe that my passion for coding allows me to
-            produce high-quality work.yes high
+            produce high-quality work.
           </p>
         </div>
         <div className="card">
@@ -30,15 +30,9 @@ function Home() {
           </p>
         </div>
         <div className="big-card">
-          <h2>About Me</h2>
+          <h2>Time management</h2>
           <p>
-            Hi! My name is Amrit and I am a web developer and cloud engineer. I
-            am passionate about building high-quality web applications that are
-            easy to use and visually appealing. I have experience working with
-            various web technologies including React, Node.js, and Express.js.
-            In addition to web development, I am also an expert in cloud
-            services like AWS, Azure, and GCP. I can help you build a scalable
-            and cost-effective cloud infrastructure for your applications.
+            I can handle any of the projects
           </p>
         </div>
       </div>
