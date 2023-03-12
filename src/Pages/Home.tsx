@@ -18,7 +18,7 @@ function Home() {
           <p>
             I am passionate about programming and always eager to learn new
             technologies. I believe that my passion for coding allows me to
-            produce high-quality work.
+            produce high-quality work.yes high
           </p>
         </div>
         <div className="card">
