@@ -12,23 +12,23 @@ const cvData = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, magna a lacinia vehicula, quam velit euismod nisl, at hendrerit magna odio sed ipsum.',
     },
     {
-      title: 'Software Engineer',
-      company: 'XYZ Company',
-      duration: '2015 - 2018',
+      title: 'Frontend Developer',
+      company: 'Codniv Innovations',
+      duration: '2019 - 2022',
       description:
-        'Pellentesque commodo fermentum odio, nec feugiat ipsum dignissim ac. Fusce facilisis magna vel metus blandit rhoncus.',
+        'Developed and deployed multiple frontend application on AWS using DevOps practices such as continuous integration and deployment (CI/CD) with AWS Code Pipeline and AWS Code Deploy, reducing the deployment time by 50%.',
     },
   ],
   education: [
     {
       degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of ABC',
-      duration: '2011 - 2015',
+      institution: 'Centria University of Applied Sciences',
+      duration: '2020 - 2022',
     },
     {
-      degree: 'Master of Science in Computer Science',
-      institution: 'University of XYZ',
-      duration: '2015 - 2017',
+      degree: 'Bachelor of Science in Computer Science',
+      institution: 'Tribhuvan University',
+      duration: '2015 - 2019',
     },
   ],
 };

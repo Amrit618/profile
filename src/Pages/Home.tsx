@@ -29,6 +29,7 @@ function Home() {
             and reduce your costs.
           </p>
         </div>
+        
         <div className="big-card">
           <h2>Time management</h2>
           <p>
