@@ -18,6 +18,13 @@ const cvData = {
       description:
         'Developed and deployed multiple frontend application on AWS using DevOps practices such as continuous integration and deployment (CI/CD) with AWS Code Pipeline and AWS Code Deploy, reducing the deployment time by 50%.',
     },
+    {
+      title: 'Computer Science Tutor',
+      company: 'Greenland College',
+      duration: '2015 May - 2018 Jan',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, magna a lacinia vehicula, quam velit euismod nisl, at hendrerit magna odio sed ipsum.',
+    },
   ],
   education: [
     {
