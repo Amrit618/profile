@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
       </div>
       <div className="whats-on-your-mind">
         <h2>What's on your mind?</h2>
-        <textarea placeholder="Write something here..."></textarea>
+        <textarea placeholder="Your space here..."></textarea>
         <button onClick = {handleSubmit}className="submit-button">Submit</button>
       </div>
     </div>
