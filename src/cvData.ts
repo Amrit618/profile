@@ -25,6 +25,13 @@ const cvData = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, magna a lacinia vehicula, quam velit euismod nisl, at hendrerit magna odio sed ipsum.',
     },
+    {
+      title: 'Computer Science Tutor',
+      company: 'Greenland College',
+      duration: '2015 May - 2018 Jan',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, magna a lacinia vehicula, quam velit euismod nisl, at hendrerit magna odio sed ipsum.',
+    },
   ],
   education: [
     {
