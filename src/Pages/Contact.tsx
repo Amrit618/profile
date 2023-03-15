@@ -39,6 +39,7 @@ const Contact: React.FC = () => {
             <FontAwesomeIcon icon={faGithub} />
             <span>GitHub</span>
           </a>
+          
         </div>
       </div>
       <div className="whats-on-your-mind">
