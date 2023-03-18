@@ -24,6 +24,9 @@ const useStyles = makeStyles({
     justifyContent: 'center',
     minHeight: '100vh',
   },
+  heading: {
+    marginTop: '64px',
+  },
 });
 
 const About: React.FC = () => {
@@ -31,13 +34,21 @@ const About: React.FC = () => {
 
   return (
     <div className={classes.container}>
-      <h1>About Me</h1>
+      <h1 className={classes.heading}>About Me</h1>
       <Card className={classes.card}>
         <CardContent className={classes.intro}>
           <h2>Introduction</h2>
           <p>
             Hi there! I'm an enthusiastic coder with a passion for JavaScript
-            and cloud services.
+            and cloud services.Over seven years of increasing expertise in Web
+            Development and two years of experience in Cloud Engineering,
+            experienced in designing and developing responsive websites and
+            cloud-based solutions using modern technologies and frameworks.
+            Collaborates effectively with cross-functional teams to identify
+            business needs and develop solutions that meet project goals.
+            Passionate about delivering high-quality work and continuously
+            improving technical skills to meet the ever-changing demands of the
+            industry.
           </p>
         </CardContent>
       </Card>
