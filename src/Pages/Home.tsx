@@ -29,8 +29,9 @@ function Home() {
             and reduce your costs.
           </p>
         </div>
-        
+
         <div className="big-card">
+          <h1> Hey this is a big card</h1>
           <h2>Time management</h2>
           <p>
             I can handle any of the projects
