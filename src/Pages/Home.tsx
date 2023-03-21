@@ -34,7 +34,7 @@ function Home() {
           <h1> Hey this is a big card</h1>
           <h2>Time management</h2>
           <p>
-            I can handle any of the projects
+            The time can be managed within your desired.
           </p>
         </div>
       </div>
