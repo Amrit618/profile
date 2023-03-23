@@ -33,9 +33,7 @@ function Home() {
         <div className="big-card">
           <h1> Hey this is a big card</h1>
           <h2>Time management</h2>
-          <p>
-            The time can be managed within your desired.
-          </p>
+          <p>The time can be managed within your desired.</p>
         </div>
       </div>
     </div>
