@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/HomePage.css';
 import profileImage from '../images/profile-image.png';
 
+
 function Home() {
   return (
     <div className="home-page">
