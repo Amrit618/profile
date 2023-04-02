@@ -4,9 +4,8 @@ const Newsletter = () => {
   const newsletter = {}
   return (
     <>
-
-      <div>Newsletter</div>
-      <input type='text' />
+    <div>Newsletter</div>
+    <input type='text' />
 
     </>
   );
