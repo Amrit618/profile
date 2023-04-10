@@ -11,7 +11,7 @@ function Home() {
         <h1>Amrit Bastakoti</h1>
         <p>Web Developer | Cloud Engineer</p>
         <p></p>
-        <button className="hire-button">How can I help You?</button>
+        <button className="hire-button">Hire me</button>
       </div>
       <div className="cards-section">
         <div className="card">
