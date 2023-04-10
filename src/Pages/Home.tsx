@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/HomePage.css';
 import profileImage from '../images/profile-image.png';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -9,7 +10,10 @@ function Home() {
         <img src={profileImage} alt="Profile" className="profile-image" />
         <h1 className="profile-name">Amrit Bastakoti</h1>
         <p className="profile-title">Web Developer | Cloud Engineer</p>
-        <button className="hire-button">Hire me</button>
+        {/* <button className="hire-button">Hire me</button> */}
+        <Link to="/contact" className="hire-button">
+          Hire me
+        </Link>
       </div>
       <div className="cards-section">
         <div className="card">
