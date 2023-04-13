@@ -1,0 +1,34 @@
+/* newsletterForm.css */
+.formContainer {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+.formContainer h2 {
+  margin-bottom: 1rem;
+}
+
+.formContainer input {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.formContainer button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
