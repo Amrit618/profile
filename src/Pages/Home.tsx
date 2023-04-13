@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/HomePage.css';
 import profileImage from '../images/profile-image.png';
 import { Link } from 'react-router-dom';
+import Newsletter from './Newsletter';
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
           <p className="big-card-description">
             Time can be managed within your desired timeframe.
           </p>
+          <Newsletter/>
         </div>
       </div>
     </div>
