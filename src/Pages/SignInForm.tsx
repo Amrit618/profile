@@ -7,7 +7,6 @@ interface SignInFormData {
   email: string;
   contactNumber: string;
 }
-
 function SignInForm() {
   const [formData, setFormData] = useState<SignInFormData>({
     firstName: '',
