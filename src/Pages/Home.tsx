@@ -11,7 +11,7 @@ function Home() {
         <img src={profileImage} alt="Profile" className="profile-image" />
         <h1 className="profile-name">Amrit Bastakoti</h1>
         <p className="profile-title">Web Developer | Cloud Engineer</p>
-        {/* <button className="hire-button">Hire me</button> */}
+        
         <Link to="/contact" className="hire-button">
           Hire me
         </Link>
