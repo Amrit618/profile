@@ -57,7 +57,7 @@ const About: React.FC = () => {
           <h2>Skills and Experience</h2>
           <ul>
             <li>Strong proficiency in JavaScript, HTML, SASS and CSS</li>
-            <li>Experience with cloud services such as AWS and Azure</li>
+            <li>Experience with cloud services such as AWS services like S3, CloudFront</li>
             <li>Hands-on experience with Node.js, React, and Redux</li>
             <li>Excellent problem-solving and analytical skills</li>
             <li>Strong communication and teamwork skills</li>
