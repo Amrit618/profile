@@ -1,0 +1,24 @@
+import { createRoot } from 'react-dom'
+function handleClick() {
+  root.createBatch(() => {
+    setState1('Updated state 1');
+    setState2('Updated state 2');
+  });
+}
+
+const root = createRoot(document.getElementById('root'));
+
+function App() {
+  const [state1, setState1] = useState('State 1');
+  const [state2, setState2] = useState('State 2');
+
+  return (
+    <div>
+      <p>{state1}</p>
+      <p>{state2}</p>
+      <button onClick={handleClick}>Update States</button>
+    </div>
+  );
+}
+
+root.render(<App />);

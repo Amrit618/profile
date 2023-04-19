@@ -6,16 +6,17 @@ import Newsletter from './Newsletter';
 
 function Home() {
   return (
+
     <div className="home-page">
       <div className="profile-section">
         <img src={profileImage} alt="Profile" className="profile-image" />
         <h1 className="profile-name">Amrit Bastakoti</h1>
         <p className="profile-title">Web Developer | Cloud Engineer</p>
-        
         <Link to="/contact" className="hire-button">
           Hire me
         </Link>
       </div>
+
       <div className="cards-section">
         <div className="card">
           <h2 className="card-title">Passionate about Programming</h2>
@@ -25,6 +26,7 @@ function Home() {
             produce high-quality work.
           </p>
         </div>
+
         <div className="card">
           <h2 className="card-title">Expert in Cloud Services</h2>
           <p className="card-description">
@@ -42,6 +44,7 @@ function Home() {
           </p>
           <Newsletter/>
         </div>
+        
       </div>
     </div>
   );
