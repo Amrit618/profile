@@ -19,6 +19,7 @@ const MyComponent: React.FC = () => {
       <ArrowButton direction="right" onClick={handleNextPage} />
     </div>
   );
+  
 };
 
 export default MyComponent;
