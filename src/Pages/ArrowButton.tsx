@@ -15,11 +15,11 @@ const MyComponent: React.FC = () => {
   return (
     <div>
       <h1>Page {currentPage}</h1>
-      <ArrowButton direction="left" onClick={handlePrevPage} />
-      <ArrowButton direction="right" onClick={handleNextPage} />
+      <ArrowButton a="left" onClick={handlePrevPage} />
+      <ArrowButton b="right" onClick={handleNextPage} />
     </div>
   );
-  
+
 };
 
 export default MyComponent;
