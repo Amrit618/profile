@@ -8,7 +8,7 @@ interface CVProps {
   experience: Array<{
     title: string;
     company: string;
-    duration: string;
+    duration: number;
     description: string;
   }>;
   education: Array<{ degree: string; institution: string; duration: string }>;
