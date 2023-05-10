@@ -53,6 +53,7 @@ const Resume: React.FC<CVProps> = ({
             <p>{edu.institution}</p>
             <p>{edu.duration}</p>
           </div>
+          
         ))}
       </div>
     </div>
