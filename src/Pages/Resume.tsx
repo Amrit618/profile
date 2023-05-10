@@ -26,6 +26,7 @@ const Resume: React.FC<CVProps> = ({
       <div className="cv-header">
         <h1>{name}</h1>
         <h2>{title}</h2>
+        <h1> Hello</h1>
       </div>
       <div className="cv-summary">
         <p>{summary}</p>
@@ -53,7 +54,7 @@ const Resume: React.FC<CVProps> = ({
             <p>{edu.institution}</p>
             <p>{edu.duration}</p>
           </div>
-          
+
         ))}
       </div>
     </div>
