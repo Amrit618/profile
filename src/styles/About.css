@@ -84,5 +84,6 @@
   justifyContent: 'center',
   alignItems: 'center',
   margin: 'auto',
+  flex-direction: 'align-items'
 }
 
