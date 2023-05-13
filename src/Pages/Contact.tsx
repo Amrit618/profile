@@ -22,6 +22,7 @@ const Contact: React.FC = () => {
             <span>Email</span>
           </a>
         </div>
+        
         <div className="contact-method">
           <a href="tel:123456789">
             <FontAwesomeIcon icon={faPhone} />
@@ -39,7 +40,7 @@ const Contact: React.FC = () => {
             <FontAwesomeIcon icon={faGithub} />
             <span>GitHub</span>
           </a>
-          
+
         </div>
       </div>
       <div className="whats-on-your-mind">
